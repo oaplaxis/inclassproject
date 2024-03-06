@@ -20,6 +20,11 @@
 
 }
 
+body{
+    background-image: url("../../pictures/CAHbg.png");
+    background-size: cover;
+}
+
 .card{
     background-color: #FFFFFF;
     width: 600px;
@@ -75,7 +80,21 @@
 }
 
 .form-un:focus, .form-pass:focus {
+    transform: scale(1.02);
+    transition: all 0.1s ease;
     border: 2px solid rgba(0, 0, 0, 0.28) !important;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    transition: all 0.1s ease-in-out;
+    filter: drop-shadow(0px 0px 6px rgb(0, 0, 0));
+}
+
+.btn:active{
+    transform: scale(1.035);
+    transition: all 0.05s ease-in-out;
+    filter: drop-shadow(0px 0px 3px rgb(0, 0, 0));
 }
 
 .btn {
