@@ -1,0 +1,43 @@
+.standard-link {
+    border: none;
+    background-color: transparent;
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity,1));
+    text-decoration: underline;
+    display: inline;
+}
+
+.navbar{
+    --bs-navbar-color:white;
+    --bs-navbar-brand-color:white;
+    --bs-navbar-active-color:white;
+}
+
+.navbar>.container-fluid {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+    font-style: normal;
+
+}
+
+h1, p {
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+img {
+    size: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.5vw;
+}
+
+p {
+    padding-top: 5%;
+    font-size: 1.2vw;
+}
