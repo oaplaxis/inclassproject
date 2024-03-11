@@ -1,13 +1,19 @@
 <%- include("../shared/_header") %>
 
-<div class="container mt-5">
-    <h1>
-        Create New User
-    </h1>
+<link rel="stylesheet" type="text/css" href="/css/loginpage.css">
 
-    <hr class="my-5">
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    Create New User
+                </div>
 
     <%- include("./_form") %>
+            </div>
+        </div>
+    </div>
 
     <a href="/users">Back to users</a>
 </div>
