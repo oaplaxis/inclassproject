@@ -27,7 +27,6 @@ h1, p {
 }
 
 img {
-    size: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
