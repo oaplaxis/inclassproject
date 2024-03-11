@@ -20,6 +20,10 @@
 
 }
 
+body::after{
+    opacity: 0%;   
+}
+
 body{
     background-image: url("../../pictures/CAHbg.png");
     background-size: cover;

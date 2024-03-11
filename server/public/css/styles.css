@@ -62,9 +62,14 @@ nav div a:active{
     transition: all 0.05s ease;
 }
 
-
-body div a{
-    color: aliceblue;
+body::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; width: 100vw; height: 100vh;
+    z-index: -1;
+    filter: blur(4px);
+    opacity: 50%;
+    background-image: url("../pictures/CAHbg.png");
 }
 
 body nav{
