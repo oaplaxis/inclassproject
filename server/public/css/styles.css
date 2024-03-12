@@ -72,6 +72,10 @@ body::after {
     background-image: url("../pictures/CAHbg.png");
 }
 
+body{
+    font-family: "Poppins", sans-serif;
+}
+
 body nav{
     background-color: black;
     color: antiquewhite;

@@ -8,6 +8,8 @@
 
     <hr class="my-5">
 
+    <div class="card-and-buttons">
+
     <a href="/cards/<%= card.id %>/edit">Edit card</a>
 
     <div class="card ca-card <%= card.type === 'QUESTION' ? 'bg-dark text-white' : 'bg-white text-dark' %>">
@@ -19,6 +21,8 @@
     </div>
 
     <a href="/cards">Back to cards</a>
+
+</div>
 </div>
 
 <%- include("../shared/_footer") %>
