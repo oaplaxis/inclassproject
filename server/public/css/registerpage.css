@@ -134,6 +134,7 @@ h1, p {
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
+    font-family: "Poppins", sans-serif;
 }
 
 img {
